@@ -3,7 +3,7 @@ name: CI-HelloWorld
 on:
   push:
     branches:
-      - hello-world
+      - helloworld
   workflow_dispatch:
 
 jobs:
@@ -19,3 +19,4 @@ jobs:
       - name: Run ls
         run: |
           ls -la
+
